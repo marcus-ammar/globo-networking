@@ -2,21 +2,21 @@
 
 
 variable "region" {
-    type = string
-    description = "(Optional) AWS Region to use. Default us-east-1"
-    default = "us-east-1"
+  type        = string
+  description = "(Optional) AWS Region to use. Default us-east-1"
+  default     = "us-east-1"
 }
-  
+
 variable "prefix" {
-    type = string
-    description = "(Optional) Prefix to use for all resources in the module. Default: globo-dev"
-    default = "glob-dev"
+  type        = string
+  description = "(Optional) Prefix to use for all resources in the module. Default: globo-dev"
+  default     = "glob-dev"
 }
 
 variable "environment" {
-    type = string
-    description = "(Optional) Environment of all resources"
-    default = "development"
+  type        = string
+  description = "(Optional) Environment of all resources"
+  default     = "development"
 }
 
 variable "cidr_block" {
