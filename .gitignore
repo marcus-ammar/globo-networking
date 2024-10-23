@@ -1,0 +1,35 @@
+#  Local .terraform directories
+**/.terraform/*
+.terraform/
+
+# .tfstate files
+*.tfstate
+*.tfstate.*
+
+# .tfvars files
+*.tfvars
+
+# .tfplan files
+*.tfplan
+
+# .pem files
+*.pem
+
+# Consul data directories
+**/network_config/*
+**/application_config/*
+
+# .hcl files
+*.hcl
+
+# Lock files
+.terraform.lock.hcl
+
+# IntelliJ IDEA
+.idea/
+.idea/*
+*.iml
+*.iws
+out/
+
+backend_local.tf
